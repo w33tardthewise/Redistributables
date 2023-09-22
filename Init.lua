@@ -117,7 +117,7 @@ local Functions={
 }
 
 STDExport=function(text)
-	writefile("LINJECTOR/LINJECTOR.li", text)
+	writefile("OPIUM/OPIUM.li", text)
 end
 
 for name, func in pairs(Functions) do
